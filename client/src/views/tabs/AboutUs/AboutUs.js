@@ -1,17 +1,14 @@
-import React from 'react';
 import './AboutUs.css';
-import { Link } from 'react-router-dom';
+
+import React from 'react';
 
 function AboutUs() {
     return (
-        <div className="App">
+<div className="App">
             <header className="App-header-AU">
-                <h1>
+                <h2>
                     About Us
-                </h1>
-            <Link id="logo-link" to="/">
-                <img className=".image-container" src={ "/logo192.png" } alt="React logo" width="50px" height="50px"/>
-            </Link>
+                </h2>
             </header>
             <body className= "App-info-AU">
                 <h2>Who we are:</h2>
@@ -26,16 +23,11 @@ function AboutUs() {
 
 
                 </a>
+                <br />
+                <br />
             </body>
         </div>
     );
 }
 
 export default AboutUs;
-
-/*
-Who you are
-What matters to you
-What you do
-How you do it
-*/ 

@@ -3,7 +3,7 @@
 }
 
 .App-header-AU {
-    background-color: #404146;
+    background-color: #28292c;
     height: auto;
     min-height: auto;
     display: flex;
@@ -27,6 +27,6 @@
     color: white;
 }
 
- .App-logo {
+.App-logo {
     height: 40vmin;
 }
