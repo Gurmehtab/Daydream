@@ -33,7 +33,7 @@ function Contributers() {
     return (
         <div className="App">
             <header className="App-header-CO">
-                <h2>
+                <h2 className="heading">
                     Contributors
                 </h2>
             </header>

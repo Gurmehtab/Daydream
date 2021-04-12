@@ -30,7 +30,7 @@ const ContributorList = (contributor) => (
         </div>
         <div>
             <div className  ="Text">
-                <p style ={{width:"500px"}}>
+                <p style ={{width:"500px", fontFamily:'Didot'}}>
                 {contributor.description}
                 </p>
             </div>

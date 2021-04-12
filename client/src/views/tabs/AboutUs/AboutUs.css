@@ -25,8 +25,13 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    font-family: Didot;
 }
 
 .App-logo {
     height: 40vmin;
+}
+
+.heading {
+    font-family: Didot;
 }

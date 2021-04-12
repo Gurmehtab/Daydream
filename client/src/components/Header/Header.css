@@ -10,14 +10,15 @@
 }
 
 .home-link {
-    font-family: Georgia;
+    font-family: Didot;
+    font-weight: bold;
     color: black;
     text-decoration: none;
     margin-bottom: 10px;
 }
 
 .tab-link {
-    font-family: Times;
+    font-family: Didot;
     color: black;
     text-decoration: none;
 }
