@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import AboutUs from "./views/tabs/AboutUs/AboutUs";
 import ContactUs from "./views/tabs/ContactUs/ContactUs";
 import Contributors from "./views/tabs/Contributors/Contributors";
+import Daydream from "./views/tabs/Daydream/Daydream";
 import Header from "./components/Header/Header"
 import Home from "./views/Home/Home"
 import NotFound from "./views/NotFound"
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/AboutUs" component={AboutUs} />
         <Route exact path="/Contributors" component={Contributors} />
         <Route exact path="/ContactUs" component={ContactUs} />
+        <Route exact path="/Daydream" component={Daydream} />
         <Route component={NotFound}/>
       </Switch>
     </div>
