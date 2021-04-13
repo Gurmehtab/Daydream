@@ -11,7 +11,7 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm cache clean --force
-            - run: npm install mocha
+            - run: sudo npm i -g mocha
             - run: alias mocha='./node_modules/.bin/_mocha'
             - run: npm install
       - run:
