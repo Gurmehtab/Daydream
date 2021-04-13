@@ -13,7 +13,7 @@ jobs:
             - run: npm cache clean --force
             - run: sudo npm i -g mocha
             - run: alias mocha='./node_modules/.bin/_mocha'
-            - run: npm install
+            - run: sudo npm install
       - run:
           command: npm start
           background: true
