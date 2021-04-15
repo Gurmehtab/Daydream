@@ -6,7 +6,9 @@ import React from 'react';
 const Header = () => {
     return (
         <div className='cardList'>
-            <Link className="home-link" style={{ fontSize: 50}} to="/">DAYDREAM MAGAZINE</Link>
+            <Link className="logo" to="/">
+                <img src={ "/daydream-logo.png" } alt="Daydream logo" />
+            </Link>
 
             {/* Page Links */}
             <div className="topnav-right">

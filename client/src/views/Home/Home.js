@@ -1,13 +1,15 @@
 import './Home.css';
-
 import React from 'react';
+import {Player} from 'video-react';
 
 function Home() {
     return (
         <div className="App">
 
             <div className="featured-video-container">
-                <div className="featured-video" />
+                <Player>
+                    <source src="/intro.mp4" />
+                </Player>
             </div>
                 
             <br />
@@ -30,6 +32,16 @@ function Home() {
                 <div className="featured-items" />                   
                 <div className="featured-items" />                   
                 <div className="featured-items" />                   
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <div className="featured-video-container">
+                <Player>
+                    <source src="/outro.mp4" />
+                </Player>
             </div>
 
             <br />

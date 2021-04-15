@@ -57,15 +57,7 @@
 
 .featured-video-container {
     display: flex;
-    justify-content: center;
-}
-
-.featured-video {
-    display: flex;
-    flex-direction: column;
-    width: 1200px;
-    height: 400px;
-    background-color: #363636;
+    width: 100%;
 }
 
 .row {

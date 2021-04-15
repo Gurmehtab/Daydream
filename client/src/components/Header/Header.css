@@ -9,6 +9,10 @@
     margin: 20px auto 0;
 }
 
+.logo {
+    margin-bottom: 10px;
+}
+
 .home-link {
     font-family: Didot;
     font-weight: bold;
