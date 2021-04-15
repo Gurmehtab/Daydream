@@ -13,10 +13,11 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    font-family: Didot;
 }
 
 .App-info-AU {
-    background-color: #428a8f;
+    background-color: white;
     height: auto;
     min-height: auto;
     display: flex;
@@ -24,7 +25,7 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: black;
     font-family: Didot;
 }
 
