@@ -1,15 +1,14 @@
-.Contributor-Name {
+.Contributor-Name{
     text-align: center;
     font-size: calc(14px);
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-family: Didot;
+    color: rgb(0, 0, 0)
 }
 
-.Text {
+.Text{
     position: relative;
-    left: -150px;
-    display: inline-block;
+    margin-left: -1040px;
+    display:inline-block;
     font-size: calc(12px);
     font-weight: normal;
     color: rgb(0, 0, 0);
@@ -17,33 +16,15 @@
     word-spacing: 3px;
     flex: 1;
     position: relative;
-    bottom: -13.5px;
-    text-align: center;
+    bottom:-13.5px;
 }
 
 .Contributor-Photo {
     text-align: left;
-    flex: 1;
+    flex:1;
+  }
+
+.SplitScreen{
+    display:flex;
 }
 
-.SplitScreen {
-    display: flex;
-}
-
-.App-header-CO {
-    background-color: #28292c;
-    height: auto;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    font-family: Didot;
-}
-
-.heading {
-    font-family: Didot;
-}

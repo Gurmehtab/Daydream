@@ -8,6 +8,9 @@ import Header from "./components/Header/Header"
 import Home from "./views/Home/Home"
 import NotFound from "./views/NotFound"
 import React from 'react';
+import Login from "./views/tabs/Login/Login";
+import LoginSuccessful from "./views/tabs/LoginSuccessful/LoginSuccessful"
+import LoginFailed from "./views/tabs/LoginFailed/LoginFailed"
 
 const App = () => {
   return (
@@ -22,6 +25,9 @@ const App = () => {
         <Route exact path="/Contributors" component={Contributors} />
         <Route exact path="/ContactUs" component={ContactUs} />
         <Route exact path="/Daydream" component={Daydream} />
+        <Route exact path="/Login" component={Login} />
+        <Route exact path="/LoginFailed" component={LoginFailed} />
+        <Route exact path="/LoginSuccessful" component={LoginSuccessful} />
         <Route component={NotFound}/>
       </Switch>
     </div>
