@@ -14,9 +14,10 @@ const Header = () => {
             <div className="topnav-right">
                 <Link className="tab-link" style={{ fontSize: 15}} to="/AboutUs">ABOUT</Link>
                 <Link className="tab-link" style={{ fontSize: 15}} to='/Contributors'>OUR CONTRIBUTORS</Link>
-                <Link className="tab-link" style={{ fontSize: 15}} to='/Daydream'>DAYDREAM</Link>
+                <a href={'https://www.daydreamthemag.com/'} className="tab-link" style={{ fontSize: 15}}>DAYDREAM</a>
+                {/* <Link className="tab-link" style={{ fontSize: 15}} to='/Daydream'>DAYDREAM</Link> */}
                 <Link className="tab-link" style={{ fontSize: 15}} to='/ContactUs'>CONTACT US</Link>
-            </div>
+            </div> 
         </div>
     )
 }
