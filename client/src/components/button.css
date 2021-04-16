@@ -1,0 +1,38 @@
+:root{
+    --primary: #3e3f3f;
+    --white: #ffffff;
+}
+
+.btn{
+    max-width: 700px;
+    max-height: 200px;
+    font-family: Didot;
+    font-size: 10px;
+    font-weight:  100;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: translatey(-3px);
+}
+
+.btn--primary--solid{
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+}
+.btn--primary--outline{
+    background-color: transparent;
+    color: var(--primary);
+    border: none;
+}
+
+.btn--medium{
+    padding:25px 300px;
+    font-size:calc(10px + 2vmin);
+}
